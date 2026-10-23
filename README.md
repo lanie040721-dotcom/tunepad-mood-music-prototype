@@ -24,8 +24,9 @@ tunepad-mood-music-prototype/
 │   ├── tense_lofi_pad.py
 │   └── tense_main.py
 └── README.md
+```
 
-## Code File Description
+## Code File Descriptions
 
 - `Calm/calm_main.py`: Main melody code for calm, which mainly uses longer durations, lower intensity, and gentle musical variations.
 - `Calm/calm_dreamy_pad.py`: Dreamy Pad supporting layer for Calm section.
@@ -44,12 +45,12 @@ This project was developed and tested in TunePad’s Python-based coding environ
 
 ## Audio Previews
 
-This project provides the exported music files under Calm, Happy, and Tense emotions, respectively, when variation = 2, so it is convenient for the audience to test the final music effect.
+This project provides the exported music files under Calm, Happy, and Tense emotions, respectively, when `variation = 2`, so it is convenient for the audience to test the final music effect.
 
-- `Audio/Tense.mp3`: Tense music, with Lofi Pad as the background, so it creates a dark and unstable atmosphere.
 - `Audio/Calm.mp3`: Calm music integrating with the Dreamy Pad background, so it creates a peaceful and gentle atmosphere.
 - `Audio/Happy.mp3`: Happy music with the Dreamy Pad background, so it can create a good and positive musical effect.
+- `Audio/Tense.mp3`: Tense music, with Lofi Pad as the background, so it creates a dark and unstable atmosphere.
 
-All three audio files use variation = 2. Thus, it can demonstrate the combination effect of the main melody and supporting material using the same emotional rule.
+All three audio files use `variation = 2`. Thus, it can demonstrate the combination effect of the main melody and supporting material using the same emotional rule.
 
 These audio files are used to display the actual sound output only. Please refer to the Python code file to check the completed music logic, variations, lists, loops and variation settings.
