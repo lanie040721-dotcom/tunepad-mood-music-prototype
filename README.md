@@ -6,6 +6,8 @@ This project is an emotion-based music prototype based on TunePad and Python. It
 
 The project includes three emotions: calm, happy, and tense. Each emotion has a main melody and a supporting layer. It creates corresponding auditory effects using different musical rules.
 
+## Structure
+
 - `Calm/calm_main.py`: Main melody code for calm, which mainly uses longer durations, lower intensity, and gentle musical variations.
 - `Calm/calm_dreamy_pad.py`: Dreamy Pad supporting layer for Calm section.
 - `Happy/happy_main.py`: Main melody code for Happy, which mainly uses brighter pitches, shorter durations and swing.
